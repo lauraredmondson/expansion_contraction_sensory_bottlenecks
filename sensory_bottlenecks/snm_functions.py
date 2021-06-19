@@ -1,3 +1,10 @@
+"""
+@author: Laura Edmondson
+
+Licensing:
+"""
+
+
 # Functions for SNM
 import numpy as np  
 from sklearn.metrics import mean_squared_error
@@ -33,9 +40,6 @@ def snm_sim(size, dens_ratios, act_ratios, sigmas):
 
     # loop through rays
     for i in range(11):
-        
-        # print current ray processing
-        print('processing: ray' + str(i+1))
         
         # calculate eigenvalues
         grid_vals = np.linspace(1, int(np.round(size[i]*dens_ratios[i])), int(np.round(size[i]*dens_ratios[i])))
