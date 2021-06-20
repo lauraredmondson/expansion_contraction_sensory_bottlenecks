@@ -1,3 +1,16 @@
+"""
+Expansion and contraction of resource allocation in sensory bottlenecks.
+Edmondson, L, R., Jiménez Rodríguez, A., Saal, H. P.
+
+Written in 2021 by Laura R. Edmondson.
+To the extent possible under law, the author(s) have dedicated all copyright 
+and related and neighboring rights to this software to the public domain 
+worldwide. This software is distributed without any warranty.
+You should have received a copy of the CC0 Public Domain Dedication 
+along with this software. 
+If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+"""
+
 # Analytic functions
 import numpy as np  
 import math
@@ -15,7 +28,7 @@ def bottleneck_allocation_2D(size, dens_ratio, act_ratio, sigma):
     act_ratio : int
         variance dens_ratio for low : high
     sigma : float
-        sigma for the exponential function
+        sigma value
 
     Returns
     -------
