@@ -22,3 +22,6 @@ from .snm_functions import *
 
 # plotting functions SNM
 from .snm_plotting import *
+
+# parameter functions for SNM
+from .snm_parameter_functions import *
