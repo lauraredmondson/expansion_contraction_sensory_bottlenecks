@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='sensory_bottlenecks',
-      version='0.1',
+      version='0.2',
       description='Expansion and contraction of sensory bottlenecks.',
       url='https://github.com/lauraredmondson/expansion_contraction_sensory_bottlenecks',
       classifiers=[
@@ -12,7 +12,7 @@ setup(name='sensory_bottlenecks',
       author_email='lredmondson1@sheffield.ac.uk',
       packages=['sensory_bottlenecks'],
       install_requires=[
-          'numpy','scipy','matplotlib','scikit-learn'
+          'numpy','scipy','matplotlib','scikit-learn','shapely'
       ],
       zip_safe=False,
       data_files=[('snm_params',['snm_params.pk']),
