@@ -1,5 +1,5 @@
 # Expansion and contraction in sensory bottlenecks
-Python implementation for 'Expansion and contraction of resource allocation in sensory bottlenecks'. For details, please see [Edmondson, L. R., Jimenez Rodriguez, A., & Saal, H. P., bioRxiv, 2021](https://www.biorxiv.org/content/10.1101/2021.05.26.445857v1).
+Python implementation for 'Expansion and contraction of resource allocation in sensory bottlenecks'. For details, please see [Edmondson, L. R., Jiménez-Rodríguez, A., & Saal, H. P. (2022). Expansion and contraction of resource allocation in sensory bottlenecks. Elife]( https://doi.org/10.7554/eLife.70777).
 
 ## Try it online
 
